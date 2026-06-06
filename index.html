@@ -8,6 +8,12 @@
     </head>
     
     <body>
+        <div class="navbar">
+            <a href="index.html"><div class="navbutton">Home</div></a>
+            <a href="nav2.html"><div class="navbutton">Nav2</div></a>
+            <a href="nav3.html"><div class="navbutton">Nav3</div></a>
+            <a href="index.html#contact-form"><div class="navbutton">Contact</div></a>
+        </div>
         
         <header>
             <h1 style="text-align:center;">CS370<br>Final Project</h1>
@@ -16,9 +22,9 @@
             <!-- ADJUST LATER -->
             <nav>
                 <p style="text-align:center;">
-                <a href="#contact-form">Contact</a> |
-                <a href="#nav2">Nav2</a> |
-                <a href="./nav3.html">Nav3</a> | <!-- External link to another page, 3 pages minimum required -->
+                <a class="alink" href="#contact-form">Contact</a> |
+                <a class="alink" href="#nav2">Nav2</a> |
+                <a class="alink" href="./nav3.html">Nav3</a> | <!-- External link to another page, 3 pages minimum required -->
                 </p>
             </nav>
         </header>
@@ -27,7 +33,7 @@
         <div style="text-align:center;" class="grid-container" id="grid-container">
 
             <!-- Table -->
-            <p style="grid-area: item1;"><a href="./nav3.html">Link to something here</a></p>
+            <p style="grid-area: item1;"><a class="alink" href="./nav3.html">Link to something here</a></p>
             <p style="grid-area: item2;">Description...<br>Continued...<br>Continued...</p>
             <div style="text-align:center; grid-area: item3;">
             <img src="images/img1.png" alt="No image found, this is alt text." width="50%">
