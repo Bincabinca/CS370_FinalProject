@@ -9,7 +9,7 @@ app.use(express.urlencoded({extended:true}));
 
 
 // API route for contact form submission
-app.use("/api/contact", require("./routes/contact"));
+//app.use("/api/contact", require("./routes/contact")); //disabled for testing - was causing crashes
 
 router.post("/", (req, res) => {
       const {name, email, message} = req.body;

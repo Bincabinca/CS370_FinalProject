@@ -123,3 +123,63 @@ a {
 #banner.show {
     top: 0;
 }
+
+.root {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+
+#calculator {
+    width: 600px;
+    text-align: center;
+    border: 5px solid #a70000;
+    border-radius: 10px;
+    display: grid;
+    place-items: center
+}
+
+#entry {
+    display: grid;
+    grid-template-columns: 140px 60px 60px;
+}
+
+#math {
+    display: grid;
+    grid-template-columns: 65px 65px 65px 65px;
+    padding-bottom: 20px;
+}
+
+#numEntry {
+    width: 140px;
+}
+
+#numConfirm {
+    width: 60px;
+}
+
+#calculate {
+    width: 60px;
+}
+
+#reactComponent {
+    width: 600px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    border: 5px solid #a70000;
+    border-radius: 10px;
+}
+
+#calcContainer {
+    display: grid;
+    margin-left: -10px;
+    place-items: center;
+}
+
+#mimicEntry {
+    width: 250px;
+    margin-bottom: 10px;
+}

@@ -11,6 +11,36 @@
             <a href="index.html"><div class="navbutton">Home</div></a>
             <a href="nav2.html"><div class="navbutton">Nav2</div></a>
             <a href="contact.html"><div class="navbutton">Contact</div></a>
+
         </div>
+        <div id="calcContainer">
+            <div id="calculator">
+                <h3>Calculator</h3>
+                <h5 id="result">Please enter an input.</h5>
+                <div id="entry">
+                    <input type="number" id="numEntry"/>
+                    <button id="numConfirm">Enter</button>
+                    <button id="calculate">Go!</button>
+                </div>
+                <div id="math">
+                    <button id="plus" class="mathButton">+</button>
+                    <button id="minus" class="mathButton">-</button>
+                    <button id="multiply" class="mathButton">×</button>
+                    <button id="divide" class="mathButton">÷</button>
+                </div>
+            </div>
+        </div>
+        <div class="root"></div>
+
+        <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <!--Code from https://www.youtube.com/watch?v=YnrgTBdhgV4-->
+        <script type="text/babel" src="component.js"></script>
+        <script type="text/babel">
+            ReactDOM.render(<Component />, document.querySelector(".root"));
+        </script>
+
+        <script src="calculator.js"></script>
     </body>
 </html>
