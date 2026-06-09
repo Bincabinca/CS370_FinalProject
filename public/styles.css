@@ -85,7 +85,7 @@ a {
     align-content: center;
     height: 40px;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     max-width: 1200px;
     background: #d8bb58;
     width: 100%;
@@ -104,5 +104,22 @@ a {
 }
 
 .navbutton:hover {
-    background: #d3b246;
+    background: #ff7b00;
+}
+
+#banner {
+    position: fixed;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    color: rgb(167, 0, 0);
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    transition: top .5s;
+}
+
+#banner.show {
+    top: 0;
 }
