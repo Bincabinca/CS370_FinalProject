@@ -33,7 +33,7 @@ header {
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 5em;
     font-family: "Copperplate Gothic Light", sans-serif;
     margin-bottom: 10px;
     text-align: center;
@@ -76,6 +76,21 @@ a {
 .alink:hover {
     color: #ff0000;
     text-decoration: underline;
+}
+
+/* Ensure bullets are inside the list item */
+ul:last-of-type {
+  list-style-position: inside;
+  list-style-type: "★";
+}
+
+table, th, td {
+  border: 3px solid #420000;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #cfdd9a;
+  padding: 10px;
 }
 
 /* Top Navigation Bar */
