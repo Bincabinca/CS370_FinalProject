@@ -71,5 +71,8 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
         result.innerText = "Your result: " + total;
+        increment = "Equation: ";
+        values = [];
+        operators = [1];
     })
 });
